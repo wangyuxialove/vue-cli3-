@@ -7,6 +7,7 @@ Vue.config.productionTip = false
 
 new Vue({
   router,
+  // 全局注入store实例
   store,
   render: function (h) { return h(App) }
 }).$mount('#app')
